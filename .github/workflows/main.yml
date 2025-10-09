@@ -2,7 +2,7 @@ name: library service
 
 on:
   push:
-    branches: [cisc327-library-management-a2-2303]
+    branches: [main]
 
 jobs:
   test:
