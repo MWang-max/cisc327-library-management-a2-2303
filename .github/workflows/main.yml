@@ -25,7 +25,7 @@ jobs:
     
     - name: Run tests with coverage
       run: |
-        pytest --cov=test/test_R1_AI --cov-report=xml tests/
+        pytest --cov=test_R1_AI test_R1 test_R2 test_R3_AI test_R3 test_R4 test_R4_AI test_R5 test_R5_AI test_R6 test_R6_AI test_R7 test_R7_AI --cov-report=xml tests/
 
     - name: Upload coverage reports to Codecov
       uses: codecov/codecov-action@v5
